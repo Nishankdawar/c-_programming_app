@@ -1,0 +1,356 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:text="Select from one of the quizzes given below:-"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+
+            android:paddingLeft="20dp"/>
+
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/mybutton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="GETTING STARTED WITH C++"
+
+
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/mybutton"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="OPERATORS AND EXPRESSIONS"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/mybutton"
+            android:text="FLOW OF CONTROL (DISCISION STATEMENTS)"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:textColor="#FFFFFF" />
+
+
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+            android:text="FLOW OF CONTROL (LOOPING STATEMENTS)"
+            android:padding="10dp"
+            android:layout_marginTop="20dip"
+            android:textColor="#FFFFFF" />
+
+
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="ARRAYS IN C++"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+
+            android:textColor="#FFFFFF"/>
+
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="FUNCTIONS IN C++"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="STRUCTURES IN C++"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/nine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="OBJECT ORIENTED PROGRAMMING"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+
+            android:textColor="#FFFFFF"/><Button
+        android:id="@+id/ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/mybutton"
+
+        android:text="CLASSES AND OBJECTS"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+
+        android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/eleven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="CONSTRUCTORS AND DESTRUCORS"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/tewlve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="DATA STRUCTURES:ARRAYS"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/thirteen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="DATA STRUCTURES:STACKS"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/fourteen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="DATA STRUCTURES:QUEUES"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/fifteen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="FILE HANDLING"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/sixteen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="POINTERS"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/seventeen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="MYSQL 1"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/eighteen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="MYSQL 2"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/nineteen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="MYSQL 3"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/twenty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="MYSQL 4"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/twentyone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="MYSQL 5"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/twentytwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="BOOLEAN ALGEBRA"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/twentythree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/mybutton"
+
+            android:text="NETWORKING"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>
